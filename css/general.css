@@ -96,7 +96,7 @@ h2 {
     overflow: hidden;
     text-align: center;
     font-weight: normal;
-    font-size: 1.75rem;
+    font-size: 1.95rem;
 }
 
 figure {
@@ -135,3 +135,77 @@ footer {
     font-size: .75rem;
     text-decoration: none;
 }
+
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 5% 1.5rem 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0;
+    color: #2d2e05;
+    text-decoration: none;
+}
+
+.one {
+    background-image: url(../images/leather.jpg);
+}
+
+.two {
+    background-image: url(../images/mississippimap.jpg);
+}
+
+.three {
+    background-image: url(../images/redearedslider.jpg);
+}
+
+.four {
+    background-image: url(../images/peninsulacooter.jpg);
+}
+
+.five {
+    background-image: url(../images/yellowbellied.jpg);
+}
+
+.six {
+    background-image: url(../images/redbelliedshortneck.jpg)
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 2rem;
+}
+
+.dropcap:first-letter {
+    font-size: 5rem;
+    font-weight: bold;
+    float: left;
+    margin: 1.2rem .5rem 1rem 0;
+}
+    
+
+
+
+
+
+
+
+
