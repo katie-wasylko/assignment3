@@ -224,18 +224,7 @@ blockquote p:before {
 
 blockquote p:after {
     content: "”";
-    font-size: 1.245
-        rem;
+    font-size: 1.25rem;
     position: absolute;
     margin: 0;
 }
-    
-    
-
-
-
-
-
-
-
-
