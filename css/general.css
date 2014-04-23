@@ -68,7 +68,7 @@ header {
 .nav-top a:visited {
     display: inline-block;
     margin: 0;
-    padding: .25rem 10%;
+    padding: .5rem 10%;
     color: #2d2e05;
     font-size: 1rem;
     text-decoration: none;
@@ -83,7 +83,7 @@ h1 {
     margin: 0rem;
     padding: 0.25rem;
     overflow: hidden;
-    font-size: 3.65rem;
+    font-size: 3.5rem;
     font-weight: normal;
     line-height: 5rem;
     text-align: center;
@@ -96,7 +96,7 @@ h2 {
     overflow: hidden;
     text-align: center;
     font-weight: normal;
-    font-size: 1.95rem;
+    font-size: 1.75rem;
 }
 
 figure {
@@ -107,7 +107,7 @@ figure {
 
 footer {
     margin: 0;
-    padding: 1.5rem 6rem;
+    padding: 0;
     background-color: #998574;
     overflow: hidden;
 }
@@ -130,7 +130,7 @@ footer {
 .nav-bottom a:visited {
     display: inline-block;
     margin: 0;
-    padding: 2rem 10%;
+    padding: 1rem 10%;
     color: #2d2e05;
     font-size: .75rem;
     text-decoration: none;
@@ -200,6 +200,36 @@ p {
     float: left;
     margin: 1.2rem .5rem 1rem 0;
 }
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1rem;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2rem;
+    position: absolute;
+    margin: -0.5rem 0 0 -1rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 1.245
+        rem;
+    position: absolute;
+    margin: 0;
+}
+    
     
 
 
